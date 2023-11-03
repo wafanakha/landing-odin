@@ -48,7 +48,7 @@ nav {
 #information h2 {
   width: fit-content;
   margin: 0 auto;
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
 }
 #favorites {
   display: flex;
@@ -83,4 +83,26 @@ nav {
   font-size: 30px;
   align-self: last baseline;
   margin-top: 1rem;
+}
+#sign {
+  background-color: #f3f4f4;
+  display: flex;
+  justify-content: center;
+  padding: 6rem 10rem;
+}
+#card {
+  background-color: #3b82f6;
+  color: #f3f4f4;
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 3rem;
+  width: 70%;
+  border-radius: 10px;
+}
+#card button {
+  background-color: #3b82f6;
+  color: #f3f4f4;
+  border: #e5e7eb 3px solid;
+  border-radius: 7px;
+  padding: 10px;
 }
