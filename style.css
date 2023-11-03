@@ -29,6 +29,9 @@ nav {
   justify-content: space-between;
   padding: 2rem 0;
 }
+nav a {
+  margin: 1rem;
+}
 #desc {
   display: flex;
 }
@@ -36,6 +39,7 @@ nav {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  padding-right: 5rem;
 }
 #desc img {
   width: 30rem;
