@@ -8,6 +8,15 @@ a {
   text-decoration: none;
   color: #f3f4f4;
 }
+button {
+  background-color: #3b82f6;
+  color: #f3f4f4;
+  border-radius: 7px;
+  padding: 10px;
+  border: 0;
+  width: fit-content;
+  font-size: larger;
+}
 body {
   display: flex;
   flex-direction: column;
@@ -33,6 +42,7 @@ nav a {
   margin: 1rem;
 }
 #desc {
+  margin: 1rem 0;
   display: flex;
 }
 #desc-text {
@@ -40,6 +50,10 @@ nav a {
   flex-direction: column;
   justify-content: center;
   padding-right: 5rem;
+  gap: 10px;
+}
+#desc-text p {
+  margin-bottom: 1rem;
 }
 #desc img {
   width: 30rem;
@@ -104,9 +118,5 @@ nav a {
   border-radius: 10px;
 }
 #card button {
-  background-color: #3b82f6;
-  color: #f3f4f4;
   border: #e5e7eb 3px solid;
-  border-radius: 7px;
-  padding: 10px;
 }
